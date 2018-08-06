@@ -4,8 +4,7 @@ no-response-timeout: 15
 build:
   steps:
     - script:
-        name: Thing
+        name: Thing2
         code: |
-            echo Hello from thing
-
+            env | grep THING
    
