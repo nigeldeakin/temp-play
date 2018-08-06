@@ -6,5 +6,6 @@ build:
     - script:
         name: Thing2
         code: |
+            echo Hello
             env | grep THING
    
